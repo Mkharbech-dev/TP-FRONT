@@ -1,0 +1,81 @@
+main{
+    background: rgb(103, 170, 224);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.sidebar{
+    width: 30%;
+    /* background: chocolate; */
+    padding: 15px;
+}
+h4{
+    background: black;
+    color: white;
+   height: 80px;
+   padding: 5px 15px;
+}
+.img{
+    padding: 10px 36px;
+}
+#card img{
+    padding-top: 50px;
+    height: 230px;
+}
+.liens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 20%;
+    margin: auto;
+}
+
+.sociaux{
+    width: 60%;
+    height: 250px;
+    background: black;
+    /* display: flex; */
+    justify-content: space-between;
+}
+.sociaux p{
+    color: white;
+    padding: 5px 5px;
+    border: 1px solid white;
+}
+.lorem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background: black;
+    display: flex;
+}
+.vides{
+    width: 90%;
+    height: 120px;
+    background: black;
+    margin: auto;
+    padding: 14px;
+    display: flex;
+}
+.carte{
+    width: 41%;
+    height: 250px;
+    display: inline-block;
+}
+.vide{
+    width: 30%;
+    HEIGHT: 90px;
+    background: white;
+    margin-right: 20px;
+}
